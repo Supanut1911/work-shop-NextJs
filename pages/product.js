@@ -1,7 +1,11 @@
+import Link from 'next/link'
+import MainLayout from '../layout/MainLayout'
 
 const Product = () => {
     return (
-        <div>this product component</div>
+        <MainLayout>
+            product
+        </MainLayout>
     )
 }
 

@@ -1,7 +1,11 @@
+import Link from 'next/link'
+import MainLayout from '../layout/MainLayout'
 
 const Profile = () => {
     return (
-        <div>this profile component</div>
+        <MainLayout>
+            profile
+        </MainLayout>
     )
 }
 

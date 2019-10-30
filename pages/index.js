@@ -1,9 +1,14 @@
+import Link from 'next/link'
+import MainLayout from '../layout/MainLayout'
+
 //functional component
 const HomePage = () => {
 
     return (
         <div>
-           <center><h1>Homepage</h1></center>
+            <MainLayout>
+                homepage
+            </MainLayout>
         </div>
     )
 }

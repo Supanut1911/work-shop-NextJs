@@ -1,8 +1,12 @@
+import Link from 'next/link'
+import MainLayout from '../layout/MainLayout'
 
 const Manage = () => {
 
     return (
-        <div>this manage component</div>
+        <MainLayout>
+            manage
+        </MainLayout>
     )
 }
 
